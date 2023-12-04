@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans' Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in(polegada), px, pt(ponto), pc
+
+            Medidas Relativas
+            em (altura m é relativo ao M maiúsculo de uma fonte), ex (altura x), rem, vw(vierport= largura tamanho da tela), vh (vierport= altura tamanho da tela), %
+
+            16px geralmente = 1em
+
+            usar px ou em para tamanho das letras
+            */
+            font-size: 1em;
+
+            /* lighter normal bold bolder */
+        }
+
+        h1 {
+
+            /* shorthand font
+            - font-style -> font-wight -> font-size -> font-family
+
+
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nostrum cumque ex voluptas similique fugiat officiis vitae sed perspiciatis impedit veritatis cupiditate molestiae, voluptates pariatur cum quaerat iste in quidem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus ipsa eos atque impedit? Iure tempora sequi neque laudantium velit quae et vitae. Nemo officiis odio ad veniam esse quisquam?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos incidunt ipsam expedita molestias, cupiditate minima eaque reiciendis, error vitae laborum cum odit adipisci fugiat, voluptatibus quasi consequatur sapiente. Ipsam, maxime.</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, ratione! Odit error minus doloremque eius exercitationem impedit dolor quod? Necessitatibus incidunt non temporibus est atque tenetur commodi! Natus, necessitatibus ea!</p>
+</body>
+</html>
