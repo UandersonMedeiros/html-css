@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -31,8 +32,18 @@
             color: white;
         }
 
-        tbody > tr:nth-child(2n) {
-            background-color: lightgray;
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: white;  /* 2n-1 */
+        }
+
+        tbody > tr:nth-child(even) {  
+            background-color: lightgray;  /* 2n */
         }
 
         td.num {
@@ -182,5 +193,10 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A pariatur sit, voluptatem, sunt dolor cum obcaecati aut totam ea praesentium ex, modi accusantium maxime. Optio tempore ipsum quod harum alias! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente numquam sit velit accusamus temporibus animi cum itaque voluptate aspernatur illum eaque nesciunt, odit neque deserunt ducimus, excepturi quis! Vitae, enim. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora cupiditate saepe, exercitationem nobis cum commodi tenetur? Nisi aspernatur ut atque eaque consequatur blanditiis dolore quod in sint expedita, laboriosam quae! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod quae maiores debitis unde dolor, qui nisi optio ipsam ullam, possimus a commodi hic ipsum aut esse dolorem nesciunt. Nisi, excepturi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae in iusto assumenda provident placeat debitis ipsum voluptates blanditiis nesciunt repellat. Aliquam ullam, provident laudantium minus numquam quod saepe sapiente quo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A pariatur sit, voluptatem, sunt dolor cum obcaecati aut totam ea praesentium ex, modi accusantium maxime. Optio tempore ipsum quod harum alias! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente numquam sit velit accusamus temporibus animi cum itaque voluptate aspernatur illum eaque nesciunt, odit neque deserunt ducimus, excepturi quis! Vitae, enim. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora cupiditate saepe, exercitationem nobis cum commodi tenetur? Nisi aspernatur ut atque eaque consequatur blanditiis dolore quod in sint expedita, laboriosam quae! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod quae maiores debitis unde dolor, qui nisi optio ipsam ullam, possimus a commodi hic ipsum aut esse dolorem nesciunt. Nisi, excepturi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt iste, harum porro cupiditate adipisci obcaecati culpa veniam officia molestias, minus voluptate repudiandae minima, corrupti ipsum vel doloremque ea esse! Error.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A pariatur sit, voluptatem, sunt dolor cum obcaecati aut totam ea praesentium ex, modi accusantium maxime. Optio tempore ipsum quod harum alias! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente numquam sit velit accusamus temporibus animi cum itaque voluptate aspernatur illum eaque nesciunt, odit neque deserunt ducimus, excepturi quis! Vitae, enim. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora cupiditate saepe, exercitationem nobis cum commodi tenetur? Nisi aspernatur ut atque eaque consequatur blanditiis dolore quod in sint expedita, laboriosam quae! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod quae maiores debitis unde dolor, qui nisi optio ipsam ullam, possimus a commodi hic ipsum aut esse dolorem nesciunt. Nisi, excepturi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni excepturi, exercitationem est vero a illo saepe sunt debitis ut dolor ducimus voluptate, qui aliquam aut fugiat incidunt ipsa dignissimos delectus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A pariatur sit, voluptatem, sunt dolor cum obcaecati aut totam ea praesentium ex, modi accusantium maxime. Optio tempore ipsum quod harum alias! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente numquam sit velit accusamus temporibus animi cum itaque voluptate aspernatur illum eaque nesciunt, odit neque deserunt ducimus, excepturi quis! Vitae, enim. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora cupiditate saepe, exercitationem nobis cum commodi tenetur? Nisi aspernatur ut atque eaque consequatur blanditiis dolore quod in sint expedita, laboriosam quae! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod quae maiores debitis unde dolor, qui nisi optio ipsam ullam, possimus a commodi hic ipsum aut esse dolorem nesciunt. Nisi, excepturi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam at iste voluptatem cupiditate necessitatibus excepturi exercitationem magnam aliquid voluptates voluptas culpa recusandae perferendis est id, aspernatur magni vel quidem harum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A pariatur sit, voluptatem, sunt dolor cum obcaecati aut totam ea praesentium ex, modi accusantium maxime. Optio tempore ipsum quod harum alias! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente numquam sit velit accusamus temporibus animi cum itaque voluptate aspernatur illum eaque nesciunt, odit neque deserunt ducimus, excepturi quis! Vitae, enim. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora cupiditate saepe, exercitationem nobis cum commodi tenetur? Nisi aspernatur ut atque eaque consequatur blanditiis dolore quod in sint expedita, laboriosam quae! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod quae maiores debitis unde dolor, qui nisi optio ipsam ullam, possimus a commodi hic ipsum aut esse dolorem nesciunt. Nisi, excepturi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, ullam! Doloribus in provident id, labore explicabo architecto veritatis repellat nisi odit inventore rerum reprehenderit, ducimus excepturi quod voluptas accusamus vitae?</p>
 </body>
 </html>
