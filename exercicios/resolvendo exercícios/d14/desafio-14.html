@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 14</title>
+    <style>
+        body {
+            font-family: arial;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 600px;
+        }
+
+        th {
+            background-color: gray;
+            color: white;
+            font-weight: bold;
+            border: 1px solid black;
+        }
+
+        td {
+            border: 1px solid black;
+        }
+
+        .corpo {
+            background-color: white;
+            color: black;
+            font-weight: bold;
+        }
+
+        .corpo2 {
+            text-align: center;
+        }
+
+        .resultado {
+            background-color: gray;
+            color: white;
+            font-weight: bold;
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col" rowspan="2">Área</th>
+                <th scope="col" rowspan="2">Disciplinas</th>
+                <th scope="colgroup" colspan="2">Notas</th>
+                <th scope="col" rowspan="2">Média</th>
+            </tr>
+            <tr>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="4" class="corpo">Exatas</th>
+                <td>Matemática</td>
+                <td class="corpo2">0.0</td>
+                <td class="corpo2">0.0</td>
+                <td class="corpo2">0.0</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td class="corpo2">0.0</td>
+                <td class="corpo2">0.0</td>
+                <td class="corpo2">0.0</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td class="corpo2">0.0</td>
+                <td class="corpo2">0.0</td>
+                <td class="corpo2">0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td class="corpo2">0.0</td>
+                <td class="corpo2">0.0</td>
+                <td class="corpo2">0.0</td>
+            </tr>
+            <tr>
+                <th scope="row" colspan="4" style="text-align: left; padding: 5px;">Média de Exatas</th>
+                <td class="resultado">0.0</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="2" class="corpo">Humanas</th>
+                <td>História</td>
+                <td class="corpo2">0.0</td>
+                <td class="corpo2">0.0</td>
+                <td class="corpo2">0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td class="corpo2">0.0</td>
+                <td class="corpo2">0.0</td>
+                <td class="corpo2">0.0</td>
+            </tr>
+            <tr>
+                <th scope="row" colspan="4" style="text-align: left; padding: 5px;">Média de Humanas</th>
+                <td class="resultado">0.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
